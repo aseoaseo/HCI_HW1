@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+html, body {
+    margin: 0;
+}
+
+.font {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    color: #5F5656;
+    text-align: center;
+}
+
+#frame {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: linear-gradient(180deg, #FFF9C8 0%, #F7BCA3 100%);
+}
+
+/* 29° */
+#current {
+    position: absolute;
+    width: 101px;
+    height: 77px;
+    left: 196px;
+    top: 69px;
+    font-size: 64px;
+}
+
+/* 25° */
+#low {
+    position: absolute;
+    left: 82.13%;
+    right: 7.73%;
+    top: 13.79%;
+    bottom: 82.64%;
+    font-size: 24px;
+}
+
+/* 31° */
+#high {
+    position: absolute;
+    left: 82.13%;
+    right: 7.73%;
+    top: 9.11%;
+    bottom: 87.32%;
+    font-size: 24px;
+}
+
+#yesterdayBox {    
+    position: absolute;
+    width: 101.74px;
+    height: 102px;
+    left: 18px;
+    top: 327px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* 29° */
+#yesterdayHigh {
+    position: absolute;
+    width: 48.51px;
+    height: 29px;
+    left: 47.58px;
+    top: 357px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* 24° */
+#yesterdayLow {
+    position: absolute;
+    width: 48.51px;
+    height: 29px;
+    left: 47.58px;
+    top: 389px;
+
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#yesterdayLabel {
+    position: absolute;
+    width: 72.17px;
+    height: 15px;
+    left: 32.2px;
+    top: 337px;
+
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* Marshmallow */
+#marshmallow {
+    position: absolute;
+    /* width: 108px;
+    height: 246.76px; */
+    left: 238px;
+    top: 159.46px;
+}
+
+/* UV Index and Advice */
+#UVIndex {
+    position: absolute;
+    width: 203px;
+    height: 130px;
+    left: 18px;
+    top: 179px;
+}
+
+/* Rectangle 4 */
+#UVIndexBox {
+    position: absolute;
+    width: 203px;
+    height: 130px;
+    left: 18px;
+    top: 179px;
+
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+/* 7 */
+#UVIndexNum{
+    position: absolute;
+    width: 28px;
+    height: 58px;
+    left: 56px;
+    top: 223.92px;
+
+    font-size: 48px;
+    line-height: 58px;
+}
+
+/* Toasty today! Wear sunscreen! */
+#AdviceText{
+    position: absolute;
+    width: 75px;
+    height: 34px;
+    left: 121px;
+    top: 201px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* UV Index */
+#UVIndexText{
+    position: absolute;
+    width: 57px;
+    height: 17px;
+    left: 41px;
+    top: 213px;
+
+    font-size: 14px;
+}
+
+#tomorrowBox{
+    position: absolute;
+    width: 101.74px;
+    height: 102px;
+    left: 133.12px;
+    top: 327px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* 31° */
+#tomorrowHigh{
+    position: absolute;
+    width: 44.96px;
+    height: 29px;
+    left: 163.88px;
+    top: 357px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* 27° */
+#tomorrowLow{
+    position: absolute;
+    width: 47.32px;
+    height: 29px;
+    left: 162.7px;
+    top: 389px;
+
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#tomorrowLabel {
+    position: absolute;
+    width: 72.17px;
+    height: 15px;
+    left: 147.32px;
+    top: 337px;
+
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#sunnyText{
+    position: absolute;
+    left: 13.87%;
+    right: 76%;
+    top: 17.73%;
+    bottom: 80.17%;
+
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#sun{
+    position: absolute;
+    left: 21px;
+    top: 54.06px;
+}
+
+#graphBox{
+    position: absolute;
+    width: 340px;
+    height: 130px;
+    left: 18px;
+    top: 447px;
+
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+/* 3:00 */
+#three{
+    position: absolute;
+    width: 28.94px;
+    height: 17px;
+    left: 174.05px;
+    top: 545px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* 4:00 */
+#four{
+    position: absolute;
+    width: 28.94px;
+    height: 17px;
+    left: 227.79px;
+    top: 545px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* 2:00 */
+#two{
+    position: absolute;
+    width: 28.94px;
+    height: 17px;
+    left: 120.31px;
+    top: 545px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* 1:00 */
+#one{
+    position: absolute;
+    width: 28.94px;
+    height: 17px;
+    left: 66.57px;
+    top: 545px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* 5:00 */
+#five{
+    position: absolute;
+    width: 28.94px;
+    height: 17px;
+    left: 281.53px;
+    top: 545px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#graph{
+    position: absolute;
+    left: 25px;
+    top: 15px; 
+}
+
+#chanceBox {
+    position: absolute;
+    width: 79px;
+    height: 142px;
+    left: 18px;
+    top: 595px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* 0 % */
+#chanceText {
+    position: absolute;
+    width: 19px;
+    height: 48px;
+    left: 48px;
+    top: 660px;
+
+    font-size: 32px;
+    line-height: 38px;
+}
+
+#chanceUnit {
+    position: absolute;
+    width: 19px;
+    height: 48px;
+    left: 48px;
+    top: 685px;
+
+    font-size: 12px;
+    line-height: 38px;
+}
+
+#chanceLabel {
+    position: absolute;
+    width: 63px;
+    height: 28px;
+    left: 26px;
+    top: 617px;
+
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#windBox{
+    position: absolute;
+    width: 79px;
+    height: 142px;
+    left: 192px;
+    top: 595px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#windText{
+    position: absolute;
+    width: 24px;
+    height: 48px;
+    left: 219px;
+    top: 660px;
+
+    font-size: 32px;
+    line-height: 38px;
+}
+
+#windUnit{
+    position: absolute;
+    width: 24px;
+    height: 48px;
+    left: 219px;
+    top: 685px;
+
+    font-size: 12px;
+    line-height: 38px;
+}
+
+#windLabel{
+    position: absolute;
+    width: 33px;
+    height: 28px;
+    left: 215px;
+    top: 617px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#sunsetBox{
+    position: absolute;
+    width: 79px;
+    height: 142px;
+    left: 105px;
+    top: 595px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#sunsetLabel{
+    position: absolute;
+    width: 47px;
+    height: 14px;
+    left: 121px;
+    top: 621px;
+
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* 7:45 PM */
+#sunsetText{
+    position: absolute;
+    width: 64px;
+    height: 48px;
+    left: 112px;
+    top: 660px;
+
+    font-size: 32px;
+    line-height: 38px;
+}
+
+#sunsetunit{
+    position: absolute;
+    width: 64px;
+    height: 48px;
+    left: 112px;
+    top: 685px;
+
+    font-size: 12px;
+    line-height: 38px;
+}
+
+#savedOutfitsBox{
+    position: absolute;
+    width: 79px;
+    height: 142px;
+    left: 279px;
+    top: 595px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* View Saved Outfits on Similar Days */
+#savedOutfitsText{
+    position: absolute;
+    width: 51px;
+    height: 84px;
+    left: 293px;
+    top: 624px;
+
+    font-size: 12px;
+    line-height: 14px;
+}
